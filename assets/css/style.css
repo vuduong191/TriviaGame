@@ -23,6 +23,12 @@ body{
     font-size: 2em;
     color:#ffcccb;
 }
+.cheer1{
+    font-family: 'Permanent Marker';
+    font-size: 3em;
+    color:#8c0032;
+    margin-bottom: -10px;
+}
 .answeroption {
     font-weight: 900;
     font-family: 'Tajawal';
@@ -56,13 +62,39 @@ body{
         border-radius: 50%;
         background-color:#8c0032;
     }
-#title{
-    font-family:'Rock Salt';
-    color:white;
-    size: 8em;
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 20px;
-
-    
+#title {
+  text-align: center;
+  font-size: 4em;
+  margin: 20px 0 20px 0;
 }
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a {
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+a:hover {
+  color: #8c0032;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+    text-decoration: none;
+}
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+    
