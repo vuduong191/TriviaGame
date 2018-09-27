@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Coda|Rock+Salt|Tajawal|Permanent+Marker">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+</head>
+<body>
+    <audio id="pop">
+    <source src="./assets/sound/tick.mp3" type="audio/mpeg">
+    </audio>
+        <audio id="rightsound">
+    <source src="./assets/sound/right.mp3" type="audio/mpeg">
+    </audio>
+        <audio id="wrongsound">
+    <source src="./assets/sound/wrong.mp3" type="audio/mpeg">
+    </audio>
+        <audio id="hoversound">
+    <source src="./assets/sound/hover.wav" type="audio/mpeg">
+    </audio>
+    <h1 id=title>Totally Trivial Trivia!</h1>
+    <div class = row>
+        <div class ="col-sm-4">
+
+        </div>
+        <div class ="col-sm-4">
+            <div id=toppage>
+            <p id=clickhere class = cheer>You have 14 questions. Click to start.</p>
+            </div>            
+            
+        </div>
+        <div class ="col-sm-4">
+            
+        </div>                
+    </div>
+
+    <div class = row>
+        <div class ="col-sm-4">
+
+        </div>
+        <div class ="col-sm-4">
+            <p id=prompt></p>
+        </div>
+        <div class ="col-sm-4">
+            
+        </div>          
+
+    </div>
+    <div class = "row optionrow">
+        <div class ="col-sm-4">
+
+        </div>
+        <div class ="col-sm-2 options" id=op1 datavalue=1>
+
+        </div>
+        <div class ="col-sm-2 options" id=op2 datavalue=2>
+
+        </div>
+        <div class ="col-sm-4">
+        </div>
+    </div>
+    <div class = "row optionrow">
+        <div class ="col-sm-4">
+
+        </div>
+        <div class ="col-sm-2 options" id=op3 datavalue=3>
+
+        </div>
+        <div class ="col-sm-2 options" id=op4 datavalue=4>
+
+        </div>
+        <div class ="col-sm-4">
+        </div>
+    </div>
+
+</body>
