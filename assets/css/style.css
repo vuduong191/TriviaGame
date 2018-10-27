@@ -3,7 +3,7 @@ body{
     padding:0;
     background-color: #c2185b;
     background-image: url(../images/pinkpanther.png);
-    background-position: left bottom;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: 20%;
 }
